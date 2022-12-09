@@ -12,3 +12,4 @@ run:
 	cargo run --bin day6
 	cargo run --bin day7
 	cargo run --bin day8
+	cargo run --bin day9
