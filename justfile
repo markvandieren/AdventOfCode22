@@ -1,7 +1,11 @@
+today:
+	clear
+	cargo run --bin day11
+
 test_and_run: test run
 	
 test:
-	cargo test --bins
+	cargo nextest run
 
 run:
 	cargo run --bin day1
@@ -14,3 +18,4 @@ run:
 	cargo run --bin day8
 	cargo run --bin day9
 	cargo run --bin day10
+	cargo run --bin day11
