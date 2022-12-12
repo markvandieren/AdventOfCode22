@@ -1,6 +1,6 @@
 today:
 	clear
-	cargo run --bin day11
+	cargo run --release --bin day12
 
 test_and_run: test run
 	
@@ -19,3 +19,4 @@ run:
 	cargo run --bin day9
 	cargo run --bin day10
 	cargo run --bin day11
+	cargo run --bin day12
